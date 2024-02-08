@@ -25,6 +25,7 @@
     border: 1px solid gray;
     background-color: lightgrey;
     border: 1px solid black;
+    border-radius: 8px;
     color: black;
     text-align: center;
     text-decoration: none;
@@ -40,4 +41,8 @@
   }
   .assignment:hover{
     background-color: red;
+  }
+  .assignment-link{
+    text-decoration: none !important;
+    color: black;
   }
