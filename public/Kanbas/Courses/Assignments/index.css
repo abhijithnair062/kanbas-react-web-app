@@ -1,0 +1,11 @@
+.course-nav{
+    padding-right: 10px;
+  }
+#submit{
+    background-color: red;
+    border: 0;
+}
+#cancel{
+    background-color: gray;
+    border: 0;
+}

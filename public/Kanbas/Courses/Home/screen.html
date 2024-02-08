@@ -10,30 +10,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
   <body>
-    <!-- Implement links to Kanbas and Course Navigation -->
 
-        <!-- Navbar content -->
     <div class="d-block d-sm-block d-md-none">
         <nav class="navbar navbar-light d-block d-sm-block bg-dark d-md-none" style="color: white;">
-            <!-- <i class="fa-sharp fa-regular fa-bars" style="color: white;
-            text-align: left;"></i> 
-            <i class="fa fa-bars"></i><p style="color: white;"> -->
-            <div style="text-align: center;">CS3650.MERGED.202410 Syllabus</div>
+            <div style="text-align: center;">CS5610 Web Development</div>
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                  data-bs-target="#kanbasNavBarToggle" aria-controls="kanbasNavBarToggle"
                   aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
                   <i class="fa-solid fa-bars"></i>
                 </button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+                  data-bs-target="#courseNavBarToggle" aria-controls="courseNavBarToggle"
                   aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
                   <i class="fa-solid fa-chevron-down"></i>
                 </button>
               </div>
         </nav> 
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <ul class="wd-kanbas-navigation-small wd-kanbas-navigation">
+        <div class="collapse" id="kanbasNavBarToggle" data-bs-theme="dark">
+            <ul class="kanbas-navigation-mini wd-kanbas-navigation">
               <li><a href="http://northeastern.edu">N</a></li>
               <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user"></i> Account</a></li>
               <li>
@@ -44,14 +39,14 @@
                   Courses</a></li>
               <li><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
               <li><a href="#"><i class="fa fa-inbox"></i> Inbox</a></li>
-              <li><a href="#"><i class="fa-solid fa-clock"></i> History</a></li>
-              <li><a href="#"><i class="fa fa-video"></i> Studio</a></li>
-              <li><a href="#"><i class="fa fa-c"></i> Commons</a></li>
-              <li><a href="#"><i class="fa fa-question"></i> <br> Help</a></li>
+              <li><a href="#"><i class="fa fa-clock"></i> History</a></li>
+              <li><a href="#"><i class="fa fa-tv"></i> Studio</a></li>
+              <li><a href="#"><i class="fa fa-right-from-bracket"></i> Commons</a></li>
+              <li><a href="#"><i class="fa fa-circle-info"></i> <br> Help</a></li>
             </ul>
           </div>
-          <div class="collapse" id="navbarToggleExternalContent2" data-bs-theme="dark">
-            <ul class="wd-navigation wd-navigation-small">
+          <div class="collapse" id="courseNavBarToggle" data-bs-theme="dark">
+            <ul class="kanbas-navigation-mini wd-navigation">
               <li class="wd-active">
                 <a href="/Kanbas/Courses/Home/screen.html">Home</a>
               </li>
@@ -95,7 +90,7 @@
               </li>
               <li><a href="#">Syllabus</a>
               </li>
-              <li><a href="/Kanbas/Courses/Settings/CourseDetailsTab/screen.html">Settings</a>
+              <li><a href="/Kanbas/Courses/Settings/screen.html">Settings</a>
               </li>
             </ul>
           </div>
@@ -138,7 +133,6 @@
            </ul>
         </ul>
         </div>
-        <!-- <div><i class="fa-sharp fa-regular fa-bars"></i> CS3650.MERGED.202410 Syllabus</div> -->
         <div class="d-none d-md-block course-nav ">
             <ul class="wd-navigation">
             
@@ -202,7 +196,7 @@
                 </select>
                 
                 <button class="menu-buttons module" type="button">
-                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-plus course-setting-icon"></i>
                 Module
                 </button>
                 <i class="fa fa-ellipsis-v ms-2"></i>
@@ -359,11 +353,10 @@
         </div>
         <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
             <h3>Course Status</h3>
-            <!-- Implement Course Status here -->
             <button class="menu-buttons" type="button">
-                <i class="fa-solid fa-ban"></i>Unpublished</button>
+                <i class="fa-solid fa-ban course-setting-icon"></i>Unpublished</button>
             <button class="menu-buttons btn-published" type="button">
-                <i class="fa-solid fa-circle-check"></i>Published</button>
+                <i class="fa-solid fa-circle-check course-setting-icon"></i>Published</button>
             <ul class="list-course-status">
                 <li><button class="menu-buttons">
                 <i class="fa-solid fa-file-import course-setting-icon"></i>Import Existing Content</button></li>
@@ -384,12 +377,13 @@
             <hr>
             <span style="color: red;">Grade A1-ENV+HTML</span>
             <p></p>
-            <span style="font-size: 1.5em; margin-right: 20px;">Comming Up</span><a href="#" style="color: red;text-decoration: none;">View Calender</a>
+            <h3>Coming up</h3>
+            <a href="#" style="color: red;text-decoration: none;">View Calender</a>
             <hr>
             <span class="list-upcoming-lectures">
-                <li><a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a></li>
-                <li><a href="#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a></li>
-                <li><a href="#">CS5610 06 SP23 Lecture Sep 11 at 6pm</a></li>
+                <li><a href="#">Lecture CS4550.12631.202410 </a></li>
+                <li><a href="#">Lecture CS4550.12631.202410 </a></li>
+                <li><a href="#">CS5610 06 SP23 Lecture </a></li>
             </span>
         </div>
     </div>

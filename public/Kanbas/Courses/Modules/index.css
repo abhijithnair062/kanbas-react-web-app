@@ -111,24 +111,6 @@
 .course-nav{
   padding-right: 10px;
 }
-
-/* .container{
-  display: flex;
-  margin-left: 0;
-}
-.box{
-  flex:1;
-}
-.kanbas-nav{
-  margin-right: 0;
-} */
 .flex-container {
   width: 100%;
 }
-/* .flex-fill {
-  float: left;
-  width: 75%;
-}
-.flex-grow-0.me-2.d-none.d-lg-block {
-  float: left;
-} */
