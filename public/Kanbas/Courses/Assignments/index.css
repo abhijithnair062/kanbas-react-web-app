@@ -1,5 +1,5 @@
 .course-nav{
-    padding-right: 10px;
+    padding-right: 10px !important;
   }
 #submit{
     background-color: red;
@@ -9,3 +9,35 @@
     background-color: gray;
     border: 0;
 }
+.breadcrumb-item a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.breadcrumb-navigation li {
+    padding-top: 10px;
+}
+
+.breadcrumb-navigation {
+    border-bottom: 1px solid grey;
+}
+.weightage-assignment{
+    border: 1px solid gray;
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.assignment-icon{
+    color: green;
+}
+.assignment{
+    background-color: rgb(241, 63, 63);
+    color: white;
+  }
+  .assignment:hover{
+    background-color: red;
+  }

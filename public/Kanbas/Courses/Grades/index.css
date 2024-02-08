@@ -32,3 +32,11 @@
 .settings{
     width:112px;
 }
+.breadcrumb-item a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.breadcrumb-navigation li {
+  padding-top: 10px;
+}
