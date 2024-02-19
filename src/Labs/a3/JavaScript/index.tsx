@@ -16,6 +16,7 @@ import JsonStringify from "./json/JsonStringify";
 import FindFunction from "./arrays/FindFunction";
 import FindIndex from "./arrays/FindIndex";
 import FilterFunction from "./arrays/FilterFunction";
+import TemplateLiterals from "./string/TemplateLiterals";
 function JavaScript() {
     console.log("Hello World!");
     return(
@@ -39,6 +40,7 @@ function JavaScript() {
           <FindFunction/>
           <FindIndex/>
           <FilterFunction/>
+          <TemplateLiterals/>
        </div>
     );
  }
