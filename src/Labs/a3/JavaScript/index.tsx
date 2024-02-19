@@ -7,6 +7,15 @@ import ES5Functions from "./functions/ES5Functions";
 import ArrowFunctions from "./functions/ArrowFunctions";
 import ImpliedReturn from "./functions/ImpliedReturn";
 import FunctionParenthesisAndParameters from "./functions/FunctionParenthesisAndParameters";
+import WorkingWithArrays from "./arrays/WorkingWithArrays";
+import ArrayIndexAndLength from "./arrays/ArrayIndexAndLength";
+import AddingAndRemovingDataToFromArrays from "./arrays/AddingAndRemovingDataToFromArrays";
+import ForLoops from "./arrays/ForLoops";
+import MapFunction from "./arrays/MapFunction";
+import JsonStringify from "./json/JsonStringify";
+import FindFunction from "./arrays/FindFunction";
+import FindIndex from "./arrays/FindIndex";
+import FilterFunction from "./arrays/FilterFunction";
 function JavaScript() {
     console.log("Hello World!");
     return(
@@ -21,6 +30,15 @@ function JavaScript() {
           <ArrowFunctions/>
           <ImpliedReturn/>
           <FunctionParenthesisAndParameters/>
+          <WorkingWithArrays/>
+          <ArrayIndexAndLength/>
+          <AddingAndRemovingDataToFromArrays/>
+          <ForLoops/>
+          <MapFunction/>
+          <JsonStringify/>
+          <FindFunction/>
+          <FindIndex/>
+          <FilterFunction/>
        </div>
     );
  }
