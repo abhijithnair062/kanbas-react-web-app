@@ -4,6 +4,7 @@ import Assignment4 from "./a4";
 import Nav from "../Nav";
 import {HashRouter} from "react-router-dom";
 import {Routes, Route, Navigate} from "react-router";
+
 function Labs() {
     return (
        <div className="container-fluid">
