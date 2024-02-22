@@ -1,6 +1,6 @@
 import "./index.css";
 import React from "react";
-import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
+import { FaCheckCircle, FaEllipsisV, FaPlusCircle, FaBan, FaFileImport, FaCaretRight, FaDotCircle, FaChartArea, FaBullhorn, FaBell, FaPlus } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import { assignments } from "../../Database";
 function Assignments() {
@@ -14,14 +14,14 @@ function Assignments() {
                 <input className="form-control w-25 d-inline-block" type="text" placeholder="Search for assignments" />
                 <span className="float-end">
                     <button className="menu-buttons" type="button">
-                        <i className="fa-solid fa-plus course-setting-icon"></i>
+                        <i className="fa-solid fa-plus course-setting-icon"><FaPlus/></i>
                         Group
                         </button>
                     <button className="menu-buttons assignment" type="button">
-                        <i className="fa-solid fa-plus course-setting-icon"></i>
+                        <i className="fa-solid fa-plus course-setting-icon"><FaPlus/></i>
                         Assignment
                         </button>
-                            <a href="/Kanbas/Courses/Assignments/Edit/screen.html"><button className="menu-buttons"><i className="fa fa-ellipsis-v"></i></button></a>
+                            <a href="#"><button className="menu-buttons"><i className="fa fa-ellipsis-v"><FaEllipsisV/></i></button></a>
                 </span>
         </div>
         }

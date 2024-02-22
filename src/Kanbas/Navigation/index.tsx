@@ -18,7 +18,7 @@ function KanbasNavigation() {
   return (
     <ul className="wd-kanbas-navigation">
       {links.map((link, index) => (
-        <li key={index} className={pathname.includes(link.label) ? "wd-active" : "wd-non-active"}>
+        <li key={index} className={pathname.includes(link.label) ? "wd-active" : ""}>
           <Link to={`/Kanbas/${link.label}`}> {link.icon} {link.label} </Link>
         </li>
       ))}

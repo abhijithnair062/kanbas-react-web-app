@@ -1,4 +1,5 @@
 import "./index.css";
+import { FaBan, FaCheckCircle, FaFileImport, FaCaretRight, FaDotCircle, FaChartArea, FaBullhorn, FaBell } from "react-icons/fa";
 function Status() {
     return (
       <div>
@@ -6,24 +7,24 @@ function Status() {
         <div className="flex-grow-0 me-2 d-none d-lg-block">
             <h3>Course Status</h3>
             <button className="menu-buttons" type="button">
-                <i className="fa-solid fa-ban course-setting-icon"></i>Unpublished</button>
+                <span className="course-setting-icon"><FaBan/></span>Unpublished</button>
             <button className="menu-buttons btn-published" type="button">
-                <i className="fa-solid fa-circle-check course-setting-icon"></i>Published</button>
+                <span className="course-setting-icon"><FaCheckCircle/></span>Published</button>
             <ul className="list-course-status">
                 <li><button className="menu-buttons">
-                <i className="fa-solid fa-file-import course-setting-icon"></i>Import Existing Content</button></li>
+                <span className="course-setting-icon"><FaFileImport/></span>Import Existing Content</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa fa-right-from-bracket course-setting-icon"></i>Import From Commons</button></li>
+                <span className="course-setting-icon"><FaCaretRight/></span>Import From Commons</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa-regular fa-circle-dot course-setting-icon"></i>Choose Home Page</button></li>
+                <span className="course-setting-icon"><FaDotCircle/></span>Choose Home Page</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa-solid fa-chart-simple course-setting-icon"></i>View Course Stream</button></li>
+                <span className="course-setting-icon"><FaChartArea/></span>View Course Stream</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa-solid fa-bullhorn course-setting-icon"></i>New Announcement</button></li>
+                <span className="course-setting-icon"><FaBullhorn/></span>New Announcement</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa-solid fa-chart-simple course-setting-icon"></i>New Analytics</button></li>
+                <span className="course-setting-icon"><FaChartArea/></span>New Analytics</button></li>
                 <li><button className="menu-buttons">
-                <i className="fa-regular fa-bell course-setting-icon"></i>View Course Notifications</button></li>
+                <span className=""><FaBell/></span>View Course Notifications</button></li>
             </ul> 
             <h3>To Do</h3>
             <hr/>

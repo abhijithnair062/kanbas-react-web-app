@@ -19,15 +19,9 @@
     color: white;
     text-decoration: none;
   }
-  /* .wd-kanbas-navigation a i {
-    color: red;
-    font-size: 2em;
-    margin-bottom: 5px;
-    display: block;
-  } */
   .fs-2{
     color: red;
   }
-/* .fs-2.fa-user{
-  color: white;
-} */
+  .fa-user{
+    color: white;
+  }

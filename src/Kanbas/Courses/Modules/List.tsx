@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import { modules } from "../../Database";
-import { FaEllipsisV, FaCheckCircle, FaPlusCircle } from "react-icons/fa";
+import { FaEllipsisV, FaCheckCircle, FaPlusCircle, FaPlus } from "react-icons/fa";
 import { useParams } from "react-router";
 function ModuleList() {
   const { courseId } = useParams();
@@ -9,7 +9,7 @@ function ModuleList() {
   const [selectedModule, setSelectedModule] = useState(modulesList[0]);
   return (
     <>
-      {/* <!-- Add buttons here --> */
+      {
                   <div className="button-container">
                   <button className="menu-buttons" type="button">Collapse All</button>
                   <button className="menu-buttons" type="button">View Progress</button>
@@ -19,7 +19,7 @@ function ModuleList() {
                   </select>
                   
                   <button className="menu-buttons module" type="button">
-                  <i className="fa-solid fa-plus course-setting-icon"></i>
+                  <span className="course-setting-icon"><FaPlus/></span>
                   Module
                   </button>
                   <i className="fa fa-ellipsis-v ms-2"></i>
