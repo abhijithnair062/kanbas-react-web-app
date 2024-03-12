@@ -4,9 +4,12 @@ import Assignment4 from "./a4";
 import Nav from "../Nav";
 import {HashRouter} from "react-router-dom";
 import {Routes, Route, Navigate} from "react-router";
+import store from "./store";
+import { Provider } from "react-redux";
 
 function Labs() {
     return (
+      <Provider store={store}>
        <div className="container-fluid">
            {/* <h1>Assignment 3</h1>  */}
          {/* <Link to="/Labs/a3">A3</Link> |
@@ -22,6 +25,7 @@ function Labs() {
          </Routes>
           {/* <Assignment3/> */}
        </div>
+       </Provider>
     );
  }
  export default Labs;
