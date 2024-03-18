@@ -1,6 +1,6 @@
 import ModuleList from "../Modules/List";
 import Status from "./Course Status";
-
+import "../Modules/index.css"
 function Home() {
   return (
     <div className="d-flex">

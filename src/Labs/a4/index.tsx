@@ -31,6 +31,7 @@ const Assignment4 = () => {
       <ObjectStateVariable/>
       <ArrayStateVariable/>
       <ParentStateComponent/>
+      <ReduxExamples/>
     </>
   );
 };
